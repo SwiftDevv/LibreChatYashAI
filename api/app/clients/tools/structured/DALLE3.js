@@ -132,7 +132,7 @@ class DALLE3 extends Tool {
     let resp;
     try {
       resp = await this.openai.images.generate({
-        model: 'flux-realism',
+        model: 'FLUX.1 [pro]',
         quality,
         style,
         size,
