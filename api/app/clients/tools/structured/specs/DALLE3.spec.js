@@ -117,7 +117,7 @@ describe('DALLE3', () => {
     const result = await dalle._call(mockData);
 
     expect(generate).toHaveBeenCalledWith({
-      model: 'flux-pro-1.1',
+      model: 'flux-realism',
       quality: mockData.quality,
       style: mockData.style,
       size: mockData.size,
